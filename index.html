@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-Analyzer</title>
+    <link rel="stylesheet" href="./app.css" />
+    
+  <body>
+    <div  class="wrapper">
+      <div class="inp-container">
+        <h1 class="mx-auto text-center col-12 text-light mt-3">
+          Text Analyzer
+        </h1>
+
+        <textarea
+          name=""
+          id="textinput"
+          cols="30"
+          rows="10"
+          placeholder="Paste or type your text here"
+        ></textarea>
+        <button id="analyzebutton">Analyze</button>
+      </div>
+      <div id="results" class="output-container">
+        <p>Word Count: <span id="wordcount">0</span></p>
+        <p>Character Count: <span id="charcount">0</span></p>
+        <p>Average Word Length: <span id="avg">0</span></p>
+      </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
